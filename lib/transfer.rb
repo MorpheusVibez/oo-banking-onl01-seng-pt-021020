@@ -30,6 +30,7 @@ class Transfer
 
     if sender.valid? == false
       "Transaction rejected. Please check your account balance."
+    end
   end
 
   def reverse_transfer
