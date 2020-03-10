@@ -1,5 +1,5 @@
-class Transfer
 require "pry"
+class Transfer
   attr_accessor :sender, :receiver, :amount
   attr_reader :status
 
